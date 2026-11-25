@@ -39,3 +39,12 @@
 .rule-explain-columns strong{display:block;font-size:12px;color:#e9f5f8;margin-bottom:7px}
 .rule-explain-columns p{font-size:13px;line-height:1.5;color:#b7cbd8;margin:0}
 @media(max-width:650px){.executive-top{display:block}.snapshot-badge{display:inline-block;margin-top:12px}.rule-explain-columns{grid-template-columns:1fr}}
+
+/* Explanation panel: strong emphasis, clear focus and click target. */
+.rule-explain{border:2px solid #51c9ad;background:linear-gradient(115deg,#12363a,#092332);box-shadow:0 8px 30px #0003}
+.rule-explain:focus{outline:3px solid #71e5be;outline-offset:3px}
+.rule-explain-head{margin-bottom:19px}
+.rule-eyebrow{color:#80f4d0}
+.rule-explain-columns strong{font-size:13px;color:#f0fffa}
+.rule-explain-columns p{color:#d0e9e5;font-size:14px}
+.validation-card small{color:#8ff3cb;font-weight:700}
